@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 :root {
     /* font-sixe */
@@ -52,4 +53,131 @@
 
 
 
+}
+
+.navBg {
+    background: var(--Sky-gradient, linear-gradient(180deg, #81BEEA 0%, rgba(255, 240, 251, 0.45) 50.52%, rgba(202, 226, 249, 0.00) 100%));
+}
+
+.navItem {
+    color: #000;
+    font-family: Roboto;
+    font-size: var(--nav-li-font-size);
+    font-style: normal;
+    font-weight: var(--nav-li-font-weight);
+    line-height: 24px;
+    /* 109.091% */
+}
+
+.navItemBtn {
+    border-radius: 9999px;
+    border: 2px solid #000;
+    background: var(--nav-button-background);
+    color: #fff
+}
+
+.logoImg {
+    width: 300px;
+}
+
+.hea1 {
+    font-family: Montserrat;
+    font-size: 43px;
+    font-style: normal;
+    font-weight: var(--h1-font-weight);
+    line-height: 44px;
+    /* 179.167% */
+    letter-spacing: -1px;
+    background: linear-gradient(180deg, #409BDC 0%, #1D3342 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.pa1 {
+    color: var(--para1-color);
+    font-family: IBM Plex Sans;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: var(--para2-font-weight);
+    line-height: 24px;
+    /* 109.091% */
+    letter-spacing: 1.1px;
+}
+
+.reqBtn {
+    border-radius: 7px !important;
+    background: #357BAD !important;
+    color: #fff;
+}
+
+.expBtn {
+    border-radius: 7px !important;
+    border: 1px solid #000 !important;
+    background: #FFF;
+}
+
+.marquee {
+    white-space: nowrap;
+    overflow: hidden;
+    position: relative;
+
+    height: 100px;
+    /* Adjust based on your image height */
+    animation: marquee 10s linear infinite;
+
+}
+
+.bgmarquee {
+    background: linear-gradient(90deg, #FFF1CA -32.07%, rgba(255, 255, 255, 0.00) 100%);
+    padding: 25px;
+    width: 50px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.marquee img {
+    width: 80px;
+    height: 40px;
+    object-fit: contain;
+
+}
+
+.mImages {
+    width: 400px;
+    overflow: hidden;
+    position: relative;
+
+}
+
+@keyframes marquee {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.rowBg {
+    background: linear-gradient(180deg, rgba(202, 226, 249, 0.00) 0%, rgba(255, 240, 251, 0.45) 50.52%, #81BEEA 100%);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.hea2 {
+    color: #263238;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+    /* 44.8px */
+}
+
+.rowBg2 {
+    background: linear-gradient(90deg, #FDF3E0 0%, rgba(255, 240, 251, 0.45) 33.85%, rgba(32, 90, 144, 0.00) 96.35%);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }

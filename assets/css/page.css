@@ -28,6 +28,7 @@
 }
 
 .client-head {
+
     color: #000;
     font-family: Montserrat;
     font-size: var(--h1-font-size);
@@ -70,7 +71,7 @@
     font-weight: var(--nav-li-font-weight);
 }
 
-.item1:hover {
+.items:hover {
     background-color: var(--button-text-color);
     transition: .2s;
     width: 100%;
@@ -112,8 +113,10 @@
     color: var(--card-para-color);
     font-family: IBM Plex Sans;
     font-size: var(--h3-font-size);
-    font-weight: var(--para2-font-weight)
-        /* 36px */
+    font-weight: var(--para2-font-weight);
+    padding: 0px 23px;
+
+    /* 36px */
 }
 
 .head-text {
@@ -204,86 +207,99 @@
 
 }
 
-@media (max-width:576px) {
+@media (max-width:767px) {
     .unlock-head {
-        font-size: 35px;
+        font-size: 25px;
+    }
+
+    .item1 {
+        font-size: 25px;
     }
 
     .client-head {
-        font-size: 35px;
+        font-size: 25px;
     }
 
     .head1-span {
-        font-size: 35px;
-    }
-
-    .comp {
-        width: 100%
+        font-size: 25px;
     }
 
     .freq2-head {
-        font-size: 35;
+        font-size: 25px;
+
 
     }
 
+    .unlock-head2 {
+        font-size: 25px;
+    }
+
     .acord-p {
-        font-size: 16px !important;
+        font-size: 20px !important;
+    }
+
+    .Frequently-head {
+        font-size: 25px;
+    }
+
+    .time-para {
+        font-size: 20px;
+    }
+
+    .para-text {
+        font-size: 16px;
+    }
+
+    .time-head {
+        font-size: 18px;
     }
 
 }
 
 @media (max-width:375px) {
     .unlock-head {
-        font-size: 22px;
+        font-size: 20px;
+    }
+
+    .item1 {
+        font-size: 20px;
+    }
+
+    .client-head {
+        font-size: 20px;
+    }
+
+    .head1-span {
+        font-size: 20px;
+    }
+
+    .freq2-head {
+        font-size: 20px;
+
 
     }
 
     .unlock-head2 {
-        font-size: 22px;
-    }
-
-    .comp {
-        width: 100%
-    }
-
-    .client-head {
-        font-size: 22px;
-
-    }
-
-    .head1-span {
-        font-size: 22px;
-    }
-
-    .content-para {
-        font-size: 16px;
-    }
-
-    .Frequently-head {
-        font-size: 22px;
-    }
-
-    .freq2-head {
-        font-size: 22px;
+        font-size: 20px;
     }
 
     .acord-p {
         font-size: 16px !important;
     }
 
-    .social-row {
-        padding-top: 0px !important;
-    }
-
-    .item1 {
-        font-size: 16px;
-    }
-
-    .time-head {
+    .Frequently-head {
         font-size: 20px;
     }
 
     .time-para {
-        font-size: 20px;
+        font-size: 16px;
+    }
+
+    .para-text {
+        font-size: 16px;
+    }
+
+    .time-head {
+        font-size: 18px;
     }
 }

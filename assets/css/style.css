@@ -196,19 +196,24 @@
 
 
 /* new css */
+
 .mobileImg {
     object-fit: cover;
     width: 400px;
 }
 
-.speci1 {
+.specification {
     position: absolute;
+}
+
+.speci1 {
+    /* position: absolute; */
     top: 10rem;
     left: 8rem;
 }
 
 .speci2 {
-    position: absolute;
+    /* position: absolute; */
     top: 14rem;
     left: 5rem;
 }
@@ -218,7 +223,7 @@
 }
 
 .speci3 {
-    position: absolute;
+    /* position: absolute; */
     top: 37rem;
     left: 5rem;
 }
@@ -228,13 +233,13 @@
 }
 
 .speci4 {
-    position: absolute;
+    /* position: absolute; */
     top: 14rem;
     right: 1rem;
 }
 
 .speci5 {
-    position: absolute;
+    /* position: absolute; */
     top: 19rem;
     right: 4rem;
 }
@@ -244,7 +249,7 @@
 }
 
 .speci6 {
-    position: absolute;
+    /* position: absolute; */
     top: 30rem;
     right: 0;
 }
@@ -259,7 +264,7 @@
 }
 
 .speci7 {
-    position: absolute;
+    /* position: absolute; */
     top: 33rem;
     right: 0;
 }
@@ -276,7 +281,7 @@
 
 
 .speci8 {
-    position: absolute;
+    /* position: absolute; */
     top: 41rem;
     right: 0rem;
 }
@@ -291,5 +296,36 @@
 
 }
 
+
+@media (max-width:992px) {
+    .lineImg {
+        display: none;
+    }
+
+    .specification {
+        position: static;
+    }
+
+    .specification p {
+        margin-left: 2rem !important;
+        margin-bottom: 2rem !important;
+    }
+
+    .innerDiv {
+        position: relative;
+    }
+
+    .specification p::before {
+        content: " ";
+        width: 10px !important;
+        height: 10px !important;
+        background-color: #2563EB;
+
+        border-radius: 5px;
+        position: absolute;
+        top: 9px;
+        left: 0;
+    }
+}
 
 /* new css end */

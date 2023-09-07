@@ -162,6 +162,46 @@
     }
 }
 
+.marquee2 {
+    white-space: nowrap;
+    overflow: hidden;
+    position: relative;
+
+    height: 100px;
+    /* Adjust based on your image height */
+    animation: marquee2 20s linear infinite;
+
+}
+
+
+@keyframes marquee2 {
+    0% {
+        transform: translateY(100%);
+    }
+
+    100% {
+        transform: translateY(-100%);
+    }
+}
+
+
+
+.marQ {
+    height: fit-content;
+    overflow-y: hidden;
+    background-color: rgba(212, 213, 214, 0.44);
+}
+
+.bgEffect {
+    width: 95%;
+    background-color: #fff;
+    height: 35px;
+    position: absolute;
+    top: 50%;
+    left: 8px;
+    border-radius: 5px;
+}
+
 .rowBg {
     background: linear-gradient(180deg, rgba(202, 226, 249, 0.00) 0%, rgba(255, 240, 251, 0.45) 50.52%, #81BEEA 100%);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
@@ -294,6 +334,17 @@
 .speci8 img {
     width: 90%;
 
+}
+
+.ontainerclicnicservice {
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.cardclinicandclient {
+
+    opacity: 0;
+    transition: opacity 0.8s ease-in-out;
 }
 
 

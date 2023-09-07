@@ -56,7 +56,7 @@
 }
 
 .contain-5 {
-    background-color: rgba(212, 213, 214, 0.44);
+    background-color: transparent;
     height: fit-content;
 
 }
@@ -64,8 +64,8 @@
 .item1 {
     color: var(--get-started-background);
     font-family: IBM Plex Sans;
-    font-size: var(--payroll-li-font-size);
-    text-align: center;
+    font-size: 22px;
+    text-align: start;
     cursor: pointer;
     white-space: nowrap;
     font-weight: var(--nav-li-font-weight);
@@ -193,7 +193,7 @@
 .arro-1 {
     position: absolute;
     top: 50%;
-    left: -12%;
+    left: -16%;
     transform: translate(-50%, -50%);
 }
 
@@ -392,6 +392,14 @@
     .custom-button {
         width: 100%;
     }
+
+    .hea1 {
+        font-size: 25px;
+    }
+
+    .hea2 {
+        font-size: 20px;
+    }
 }
 
 @media (max-width:375px) {
@@ -463,6 +471,21 @@
         width: 100%;
     }
 
+    .hea1 {
+        font-size: 20px;
+    }
 
+    .hea2 {
+        font-size: 16px;
+    }
 
+    .pa1 {
+
+        font-size: 16px;
+    }
+
+    .content-para {
+
+        font-size: 16px;
+    }
 }

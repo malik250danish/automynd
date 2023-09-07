@@ -186,6 +186,17 @@
     background: no-repeat !important;
 }
 
+.ul-grou {
+    position: relative;
+}
+
+.arro-1 {
+    position: absolute;
+    top: 50%;
+    left: -12%;
+    transform: translate(-50%, -50%);
+}
+
 .freq2-head {
 
     color: var(--button-background);
@@ -195,21 +206,136 @@
     font-weight: var(--frequently-font-weight);
 }
 
+.item2 {
+    border: transparent !important;
+    border-top: 1px solid #E2E8F0 !important;
+
+}
+
+.email-input1 {}
+
+.email-input2 {
+    display: flex;
+    height: 54px;
+    padding: 16.5px 0px 16.5px 13px;
+    justify-content: flex-end;
+    align-items: center;
+    border-radius: 50px;
+    border: 1px solid var(--undertext, #66707C);
+    background: #FFF;
+
+}
+
+.email-input2:focus {
+    outline: none;
+}
+
+.custom-button {
+    display: flex;
+    width: 142px;
+    height: 54px;
+    padding: 20.5px 40.81px 21.5px 40px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    background: #000;
+    color: #FFF;
+    white-space: nowrap;
+    text-align: center;
+    font-family: IBM Plex Sans;
+    font-size: 14px;
+    font-weight: 700;
+    border: none;
+    text-transform: uppercase;
+
+}
+
+.copy {
+    color: #263238;
+    font-family: IBM Plex Sans;
+    font-size: 16px;
+    font-weight: 500;
+
+
+}
+
+.foot-row {
+
+    padding-bottom: 8rem;
+}
+
+.item4 li a {
+    color: var(--card-para-color);
+    font-family: IBM Plex Sans;
+    font-size: var(--footer-li-font-size);
+    font-weight: 400;
+    text-decoration: none;
+
+
+
+}
+
+.footer {
+    background: linear-gradient(180deg, rgba(202, 226, 249, 0.00) 0%, rgba(255, 240, 251, 0.45) 50.52%, #81BEEA 100%);
+}
+
+.igt {
+    padding-bottom: 10rem;
+
+}
+
+.active:active {
+    color: var(--card-para-color);
+    font-family: IBM Plex Sans;
+    font-size: var(--footer-li-font-size);
+    font-weight: var(--h2-font-weight);
+
+
+}
+
 @media (max-width:992px) {
     .im2 {
         width: 100%
     }
+
+
+
+    .item4 {
+        justify-content: space-between !important;
+    }
+
 
     .container-client {
         padding-bottom: 3rem;
 
     }
 
+    .arro-1 {
+        display: none;
+
+
+    }
+
+
+
+    .foot-row {
+        gap: 20px;
+    }
 }
 
 @media (max-width:767px) {
     .unlock-head {
         font-size: 25px;
+    }
+
+    .ig1 {
+        gap: 20px;
+        flex-direction: column;
+
+    }
+
+    .foot-row {
+        gap: 20px;
     }
 
     .item1 {
@@ -228,6 +354,15 @@
         font-size: 25px;
 
 
+    }
+
+    .email-input1 {
+        flex-direction: column;
+    }
+
+    .item4 {
+        flex-direction: column;
+        gap: 15px;
     }
 
     .unlock-head2 {
@@ -254,6 +389,9 @@
         font-size: 18px;
     }
 
+    .custom-button {
+        width: 100%;
+    }
 }
 
 @media (max-width:375px) {
@@ -267,6 +405,10 @@
 
     .client-head {
         font-size: 20px;
+    }
+
+    .foot-row {
+        gap: 20px;
     }
 
     .head1-span {
@@ -302,4 +444,25 @@
     .time-head {
         font-size: 18px;
     }
+
+    .im2 {
+        width: 100%
+    }
+
+    .ig1 {
+        gap: 20px;
+        flex-direction: column;
+
+    }
+
+    .email-input1 {
+        flex-direction: column;
+    }
+
+    .custom-button {
+        width: 100%;
+    }
+
+
+
 }

@@ -193,3 +193,103 @@
         width: 160px;
     }
 }
+
+
+/* new css */
+.mobileImg {
+    object-fit: cover;
+    width: 400px;
+}
+
+.speci1 {
+    position: absolute;
+    top: 10rem;
+    left: 8rem;
+}
+
+.speci2 {
+    position: absolute;
+    top: 14rem;
+    left: 5rem;
+}
+
+.speci2 img {
+    width: 70%;
+}
+
+.speci3 {
+    position: absolute;
+    top: 37rem;
+    left: 5rem;
+}
+
+.speci3 img {
+    width: 60%;
+}
+
+.speci4 {
+    position: absolute;
+    top: 14rem;
+    right: 1rem;
+}
+
+.speci5 {
+    position: absolute;
+    top: 19rem;
+    right: 4rem;
+}
+
+.speci5 p {
+    margin-left: 15rem;
+}
+
+.speci6 {
+    position: absolute;
+    top: 30rem;
+    right: 0;
+}
+
+.speci6 p {
+    /* width: 60%; */
+    margin-left: 15rem;
+}
+
+.speci6 img {
+    width: 90%;
+}
+
+.speci7 {
+    position: absolute;
+    top: 33rem;
+    right: 0;
+}
+
+.speci7 p {
+    /* width: 60%; */
+    margin-left: 15rem;
+}
+
+.speci7 img {
+    width: 90%;
+
+}
+
+
+.speci8 {
+    position: absolute;
+    top: 41rem;
+    right: 0rem;
+}
+
+.speci8 p {
+    /* width: 60%; */
+    margin-left: 10rem;
+}
+
+.speci8 img {
+    width: 90%;
+
+}
+
+
+/* new css end */

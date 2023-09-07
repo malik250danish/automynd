@@ -12,13 +12,14 @@
     />
     <!-- customized css -->
     <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/page.css" />
     <!-- data aos  -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
   <body>
     <!-- navbar -->
-    <nav class="navbar navbar-expand-lg">
-      <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg navBg pt-3">
+      <div class="container">
         <button
           class="navbar-toggler"
           type="button"
@@ -34,31 +35,309 @@
           class="collapse navbar-collapse justify-content-end"
           id="navbarNavDropdown"
         >
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#"
+          <ul class="navbar-nav mt-3">
+            <li class="nav-item mx-4">
+              <a class="nav-link active navItem" aria-current="page" href="#"
                 >Solution</a
               >
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">About us</a>
+            <li class="nav-item mx-4">
+              <a class="nav-link navItem" href="#">About us</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact us</a>
+            <li class="nav-item mx-4">
+              <a class="nav-link btn navItemBtn px-3" href="#"
+                >Contact us <img src="./assets/images/arrow.svg" alt=""
+              /></a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
     <!-- navbar end -->
+    <!-- main section -->
+    <div class="containe-fluid px-5">
+      <div class="row">
+        <div class="col-md-6">
+          <a href="#"
+            ><img
+              class="logoImg"
+              src="./assets/images/logo.png"
+              data-aos="zoom-out-up"
+              alt=""
+          /></a>
+          <p class="hea1" data-aos="fade-up">AI-powered Automation</p>
+          <p class="hea1" data-aos="fade-down">for your clinical assessments</p>
+          <p class="pa1" data-aos="fade-right">
+            We have combined the power of AI and Automation to enhance the
+            experience of Home Health and Post-Acute care clinicians and
+            caregivers.
+          </p>
+          <div class="my-2" data-aos="fade-up">
+            <button class="btn reqBtn px-5 mx-2 my-2" data-aos="fade-left">
+              Request Demo
+            </button>
+            <button class="btn expBtn px-5 mx-2 my-2" data-aos="fade-right">
+              Explore More
+            </button>
+          </div>
+          <div class="mImages">
+            <div class="my-2 marquee d-flex">
+              <img src="./assets/images/ca1.png" alt="" />
+              <img src="./assets/images/ca2.png" alt="" />
+              <img src="./assets/images/ca3.png" alt="" />
+              <img src="./assets/images/ca4.png" alt="" />
+            </div>
+            <div class="bgmarquee"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- main section end -->
+    <!-- Clinician’s and clients -->
+    <div class="container-fluid my-2">
+      <p class="hea1 text-center" data-aos="fade-up">
+        A layer of AI in your Clinician’s and Clients journey
+      </p>
+      <div class="row rowBg my-2">
+        <div class="col-md-4 my-2" data-aos="fade-left">
+          <img class="img-fluid" src="./assets/images/cc1.png" alt="" />
+        </div>
+        <div class="col-md-4 my-2" data-aos="fade-up">
+          <img class="img-fluid" src="./assets/images/cc2.png" alt="" />
+        </div>
+        <div class="col-md-4 my-2" data-aos="fade-right">
+          <img class="img-fluid" src="./assets/images/cc3.png" alt="" />
+        </div>
+        <div class="col-md-4 my-2" data-aos="fade-left">
+          <img class="img-fluid" src="./assets/images/cc4.png" alt="" />
+        </div>
+        <div class="col-md-4 my-2" data-aos="fade-up">
+          <img class="img-fluid" src="./assets/images/cc5.png" alt="" />
+        </div>
+        <div class="col-md-4 my-2" data-aos="fade-right">
+          <img class="img-fluid" src="./assets/images/cc6.png" alt="" />
+        </div>
+      </div>
+      <p class="hea1 text-center my-4" data-aos="fade-up">
+        Learn more about Martha - The Visit Assistant
+      </p>
+
+      <div class="row mb-2 mt-4 pt-3 rowBg2">
+        <p class="hea2 px-5" data-aos="fade-up">
+          Voice Assisted Experience that captures notes and assessments through
+          AI to seamlessly integrate into any EHR.
+        </p>
+        <div class="col-md-12 my-2">
+          <div class="mobileMain position-relative">
+            <div class="d-flex justify-content-center">
+              <img
+                class="img-fluid my-5 mobileImg"
+                src="./assets/images/mobile.png"
+                alt=""
+              />
+            </div>
+            <div class="speci1 specification " data-aos="fade-left">
+             <div class="innerDiv">
+              <p class="mb-0 ms-5">voice assistant</p>
+              <img class="mt-0 lineImg" src="./assets/images/line1.png" alt="" />
+             </div>
+            </div>
+            <div class="speci2 specification"  data-aos="fade-left">
+            <div class="innerDiv">
+              <p class="mb-0 ">GPS & Drive time tracking</p>
+              <img class="mt-0 lineImg" src="./assets/images/line2.png" alt="" />
+            </div>
+            </div>
+            <div class="speci3 specification"  data-aos="fade-left">
+            <div class="innerDiv">
+              <p class="mb-0 ms-3">ICD - Code translation</p>
+              <img class="mt-0 lineImg" src="./assets/images/line3.png" alt="" />
+            </div>
+            </div>
+            <div class="speci4 specification"  data-aos="fade-right">
+             <div class="innerDiv">
+              <p class="mb-0 ms-5">OASIS-E Capture </p>
+              <img class="mt-0 lineImg" src="./assets/images/line4.png" alt="" />
+             </div>
+            </div>
+            <div class="speci5 specification"  data-aos="fade-right">
+             <div class="innerDiv">
+              <p class="mb-0 ">Patient History Overview </p>
+              <img class="mt-0 lineImg" src="./assets/images/line5.png" alt="" />
+             </div>
+            </div>
+            <div class="speci6 specification" data-aos="fade-right">
+           <Div class="innerDiv">
+            <p class="mb-0 ">Client Visit & Progress Note </p>
+            <img class="mt-0 lineImg" src="./assets/images/line5.png" alt="" />
+           </Div>
+            </div>
+            <div class="speci7 specification" data-aos="fade-right">
+            <div class="innerDiv">
+              <p class="mb-0 ">Incident tracking - Fall detection </p>
+              <img class="mt-0 lineImg" src="./assets/images/line5.png" alt="" />
+            </div>
+            </div>
+            <div class="speci8 specification">
+           <div class="innerDiv">
+            <p class="mb-0 ">Camera and Attachment upload  </p>
+            <img class="mt-0 lineImg" src="./assets/images/line5.png" alt="" />
+           </div>
+            </div>
+          </div>
+        
+         
+        </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Clinician’s and clients end -->
+
+    <!-- new sections -->
+
+    <div class="container-fluid text-center unlockb mt-5">
+      <div class="row">
+        <div class="col-md-12">
+          <h1 class="unlock-head" data-aos="fade-up">
+            Unlock Insights and Boost Clinical Excellence!
+          </h1>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid container-client pt-5 px-md-5">
+      <div class="row mt-lg-5 mt-md-5">
+        <!-- First Column for Title and Content -->
+        <div class="col-md-6">
+          <h1 class="client-head" data-aos="fade-up">
+            Deep Analytics <br /><span class="head1-span"
+              >of Client Interaction</span
+            >
+          </h1>
+          <p class="content-para" data-aos="fade-up">
+            Quam quis orci turpis vulputate platea. Urna ipsum suscipit nullam
+            ipsum nam leo fringilla eget lorem. Sit vestibulum phasellus integer
+            et et diam malesuada. Sed tortor orci mauris proin ac. Venenatis
+            euismod mauris quis sit purus nisi. Sed quis eget augue ut aliquam
+            sed.
+          </p>
+        </div>
+        <!-- Second Column for Image -->
+        <div class="col-md-6 justify-content-md-end d-flex">
+          <img
+            src="./assets/images/im1.png"
+            alt="Image"
+            class="img-fluid comp"
+            style="object-fit: contain"
+            data-aos="flip-right"
+          />
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid text-center unlockb mt-5 mb-5">
+      <div class="row">
+        <div class="col-md-12">
+          <h1 class="unlock-head" data-aos="fade-up">
+            Further Automate your back-office tasks
+          </h1>
+          <h1 class="unlock-head" data-aos="fade-down">
+            with our Robotics Process Automation service offerings
+          </h1>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid contain-2 pt-5 px-md-5">
+      <div class="row">
+        <!-- First Column with Image -->
+        <div class="col-lg-8 col-md-6 mt-5">
+          <img
+            src="./assets/images/medical remo.png"
+            data-aos="flip-left"
+            class="img-fluid im2"
+          />
+        </div>
+        <!-- Second Column with List Items -->
+        <div class="col-lg-4 col-md-6 d-flex align-item-center">
+          <ul
+            class="list-group list-unstyled col-12 contain-5 p-5 align-items-center gap-2"
+            data-aos="flip-right"
+          >
+            <li class="item1">Payroll automation</li>
+            <li class="item1">Invoice Processing</li>
+            <li class="item1">Billing Automation</li>
+            <li class="item1">OASIS Submission</li>
+            <li class="item1">Referral Intake</li>
+            <li class="item1">Accounts Payable</li>
+          </ul>
+        </div>
+      </div>
+      <!-- Three Cards in Two Columns -->
+      <div class="container-fluid mt-5">
+        <div class="row pt-5">
+          <!-- First Column with Cards -->
+          <div class="col-md-4">
+            <div class="card social-card h-100">
+              <div class="card-body text-center" data-aos="fade-up">
+                <a href=""><img src="./assets/images/action4.png" alt="" /></a>
+                <h1 class="head-text">RPA 90 Day starter kit</h1>
+                <p class="para-text">
+                  We will identify, analyze and deliver 3 automations and
+                  provide you with the playbook to further your automation
+                  journey.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Second Column with Cards -->
+          <div class="col-md-4">
+            <div class="card social-card h-100" data-aos="fade-up">
+              <div class="card-body text-center">
+                <a href=""
+                  ><img src="./assets/images/arcticons_ask-ai.png" alt=""
+                /></a>
+                <h1 class="head-text">Card Title 2</h1>
+                <p class="para-text">
+                  Our team of professionals will deliver the entire program from
+                  early discovery to implementation to scaling.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Third Column with Cards -->
+          <div class="col-md-4">
+            <div class="card social-card h-100" data-aos="fade-up">
+              <div class="card-body text-center">
+                <a href=""
+                  ><img src="./assets/images/arcticons_automation.png" alt=""
+                /></a>
+                <!-- Replace with your Font Awesome icon class -->
+                <h1 class="head-text">Card Title 3</h1>
+                <p class="para-text">
+                  Reduce maintenance cost as we help you with your resourcing
+                  needs at low cost while you focus on your day to day.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <!-- bootstrap script -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
       crossorigin="anonymous"
     ></script>
-
+    <!-- Include jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <!-- data aos script -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

@@ -232,6 +232,10 @@
     .logoImg {
         width: 160px;
     }
+
+    .mobileImg {
+        width: 300px;
+    }
 }
 
 

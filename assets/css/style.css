@@ -162,6 +162,16 @@
     }
 }
 
+@keyframes marquee3 {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(100%);
+    }
+}
+
 .marquee2 {
     white-space: nowrap;
     overflow: hidden;
@@ -190,6 +200,13 @@
     height: fit-content;
     overflow-y: hidden;
     background-color: rgba(212, 213, 214, 0.44);
+}
+
+.marque {
+    overflow: hidden;
+
+    /* Adjust based on your image height */
+    animation: marquee3 20s linear infinite;
 }
 
 .bgEffect {

@@ -70,6 +70,14 @@
     /* 109.091% */
 }
 
+.navItem:hover {
+    background: var(--nav-button-background);
+    color: #fff !important;
+    transition: .2s;
+
+    border-radius: 5px;
+}
+
 .navItemBtn {
     border-radius: 9999px;
     border: 2px solid #000;
@@ -116,6 +124,20 @@
     border-radius: 7px !important;
     border: 1px solid #000 !important;
     background: #FFF;
+}
+
+.expBtn:hover {
+
+    background: var(--nav-button-background);
+    color: #fff;
+    transition: .2s;
+
+}
+
+.reqBtn:hover {
+    background: var(--nav-button-background) !important;
+    color: #fff !important;
+    transition: .2s !important;
 }
 
 .marquee {
@@ -400,4 +422,293 @@
     }
 }
 
+/* media 1500px  */
+@media (min-width: 1500px) {
+    .speci1 {
+        left: 21rem;
+
+    }
+
+    .speci2 {
+        top: 17rem;
+        left: 9rem;
+    }
+
+    .speci4 {
+        top: 15rem;
+        right: 10rem;
+    }
+
+    .speci4 p {
+        margin-left: 6rem !important;
+    }
+
+    .speci5 p {
+        margin-left: 16rem;
+    }
+
+    .speci5 {
+
+        top: 19rem;
+        right: 12rem;
+    }
+
+    .speci6 {
+
+        top: 29rem;
+        right: 3rem;
+    }
+
+    .speci6 p {
+
+        margin-left: 7rem;
+    }
+
+    .speci7 {
+
+        right: 3rem;
+    }
+
+    .speci7 p {
+
+        margin-left: 7rem;
+    }
+
+    .speci8 {
+
+        top: 40rem;
+        right: 3rem;
+    }
+
+    .speci8 p {
+
+        margin-left: 7rem;
+    }
+
+    .speci3 {
+
+        top: 37rem;
+        left: 12rem;
+    }
+}
+
+/* media 1500px  end */
+
+@media (min-width:1700px) {
+    .speci1 {
+
+        left: 25rem;
+
+    }
+
+    .speci2 {
+        /* position: absolute; */
+        top: 17rem;
+        left: 13rem;
+    }
+
+    .speci5 {
+
+        top: 19rem;
+        right: 16rem;
+
+    }
+
+    .speci5 p {
+        margin-left: 16rem;
+    }
+
+    .speci4 {
+
+        top: 15rem;
+        right: 16rem;
+    }
+
+    .speci4 p {
+        margin-left: 8rem !important;
+
+    }
+
+    .speci3 {
+        /* position: absolute; */
+        top: 37rem;
+        left: 17rem;
+    }
+
+    .speci8 {
+        /* position: absolute; */
+        top: 40rem;
+        right: 8rem;
+    }
+
+    .speci8 p {
+
+        margin-left: 8rem;
+    }
+
+    .speci6 {
+
+        top: 29rem;
+        right: 7rem;
+    }
+
+    .speci6 p {
+        /* width: 60%; */
+        margin-left: 7rem;
+    }
+
+    .speci7 {
+
+        right: 6rem;
+    }
+
+    .speci7 p {
+
+        margin-left: 6rem;
+    }
+}
+
 /* new css end */
+@media (min-width:1900px) {
+    .speci1 {
+
+        left: 30rem;
+
+    }
+
+    .speci2 {
+        /* position: absolute; */
+
+        left: 19rem;
+    }
+
+    .speci5 {
+
+        right: 22rem;
+
+
+    }
+
+    .speci5 p {
+        margin-left: 16rem;
+    }
+
+    .speci4 {
+
+        right: 21rem;
+    }
+
+    .speci4 p {
+        margin-left: 8rem !important;
+
+    }
+
+    .speci3 {
+
+        left: 23rem;
+    }
+
+    .speci8 {
+
+        right: 14rem;
+    }
+
+    .speci8 p {
+
+        margin-left: 8rem;
+    }
+
+    .speci6 {
+
+
+        right: 13rem;
+    }
+
+    .speci6 p {
+        /* width: 60%; */
+        margin-left: 7rem;
+    }
+
+    .speci7 {
+
+        right: 13rem;
+    }
+
+    .speci7 p {
+
+        margin-left: 7rem;
+    }
+}
+
+/* new css end */
+@media (min-width:2000px) {
+    .speci2 img {
+        width: 77%;
+    }
+}
+
+@media (min-width:2100px) {
+    .speci2 {
+        /* position: absolute; */
+        left: 22rem;
+    }
+
+    .speci4 {
+        right: 27rem;
+    }
+
+    .speci5 {
+        right: 27rem;
+    }
+
+    .speci6 {
+        right: 18rem;
+    }
+
+    .speci7 {
+        right: 18rem;
+    }
+
+    .speci8 {
+        right: 19rem;
+    }
+
+    .speci1 {
+        left: 37rem;
+    }
+
+    .speci3 {
+        left: 28rem;
+    }
+}
+
+@media (min-width: 2200px) {
+    .speci2 {
+
+        left: 25rem;
+    }
+
+    .speci8 {
+        right: 23rem;
+    }
+
+    .speci7 {
+        right: 22rem;
+    }
+
+    .speci6 {
+        right: 22rem;
+    }
+
+    .speci5 p {
+        margin-left: 12rem;
+    }
+
+    .speci4 {
+        right: 31rem;
+    }
+
+    .speci3 {
+        left: 32rem;
+    }
+}

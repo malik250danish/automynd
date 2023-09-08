@@ -293,7 +293,7 @@
 
 }
 
-.active:active {
+.active:hover {
     color: var(--card-para-color);
     font-family: IBM Plex Sans;
     font-size: var(--footer-li-font-size);

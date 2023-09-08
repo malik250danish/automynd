@@ -67,6 +67,9 @@
     font-style: normal;
     font-weight: var(--nav-li-font-weight);
     line-height: 24px;
+    padding: 10px 30px !important;
+    border-radius: 30px !important;
+
     /* 109.091% */
 }
 
@@ -75,11 +78,30 @@
     color: #fff !important;
     transition: .2s;
 
+}
+
+
+
+
+.nav-item2:hover {
+    color: #fff !important;
+    transition: .2s;
+
     border-radius: 5px;
 }
 
 .navItemBtn {
     border-radius: 9999px;
+    border: 2px solid #000;
+    background: var(--nav-button-background);
+    color: #fff;
+    padding: 10px 20px !important;
+    border-radius: 30px !important;
+    text-decoration: none;
+
+}
+
+.navItemBtn:hover {
     border: 2px solid #000;
     background: var(--nav-button-background);
     color: #fff

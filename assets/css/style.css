@@ -785,7 +785,7 @@
     background-size: 100% auto;
     position: relative;
     height: 100vh;
-    width: 300%;
+    width: 450%;
 
     /* // padding:0 3.33%; */
     .wrap {
@@ -823,7 +823,7 @@ svg {
     fill: #f04931;
     stroke: #01bbea;
     stroke-width: 4px;
-    stroke-miterlimit: 10;
+    stroke-miterlimit: 13;
 }
 
 .dot {

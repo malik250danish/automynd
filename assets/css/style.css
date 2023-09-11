@@ -875,15 +875,3 @@ svg {
     padding: 5px;
     color: #fff;
 }
-
-
-@media(max-width:768px) {
-    #process-wrap {
-        /* overflow-x: scroll;*/
-        overflow-y: hidden;
-        width: 200%;
-        /* height: 300vh; */
-        margin-top: 100px;
-        /* Prevent vertical scrolling */
-    }
-}

@@ -783,8 +783,8 @@
 
 #process {
     /* background:blue; */
-    background-size: 100% auto;
-    position: relative;
+    background-size: 100% auto !important;
+    position: relative !important;
     margin-top: 70px !important;
     /* margin-bottom: 160px !important; */
 
@@ -793,12 +793,12 @@
 
     /* // padding:0 3.33%; */
     .wrap {
-        display: flex;
-        height: 100%;
-        justify-content: center;
-        align-content: center;
-        flex-direction: column;
-        max-width: 100%;
+        display: flex !important;
+        height: 100% !important;
+        justify-content: center !important;
+        align-content: center !important;
+        flex-direction: column !important;
+        max-width: 100% !important;
     }
 }
 
@@ -874,4 +874,15 @@ svg {
     border-radius: 20px;
     padding: 5px;
     color: #fff;
+}
+
+@media(max-width:768px) {
+    #process {
+        height: 50vh !important;
+        width: 880% !important;
+    }
+
+    .image {
+        width: 500px;
+    }
 }

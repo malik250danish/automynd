@@ -785,8 +785,11 @@
     /* background:blue; */
     background-size: 100% auto;
     position: relative;
-    height: 80vh;
-    width: 450%;
+    margin-top: 70px !important;
+    /* margin-bottom: 160px !important; */
+
+    height: 90vh;
+    width: 400%;
 
     /* // padding:0 3.33%; */
     .wrap {
@@ -843,7 +846,7 @@ svg {
 }
 
 .image {
-    width: 550px;
+    width: 450px;
 }
 
 /* @media(max-width:992px) {
@@ -871,4 +874,11 @@ svg {
     border-radius: 20px;
     padding: 5px;
     color: #fff;
+}
+
+
+@media(max-width:768px) {
+    #process {
+        width: 200% !important;
+    }
 }

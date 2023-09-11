@@ -298,6 +298,15 @@
     .mobileImg {
         width: 300px;
     }
+
+    .reqBtn {
+        width: 100%;
+
+    }
+
+    .expBtn {
+        width: 100%;
+    }
 }
 
 

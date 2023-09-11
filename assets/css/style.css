@@ -108,7 +108,8 @@
 }
 
 .logoImg {
-    width: 300px;
+    width: 200px;
+    object-fit: cover;
 }
 
 .hea1 {
@@ -784,7 +785,7 @@
     /* background:blue; */
     background-size: 100% auto;
     position: relative;
-    height: 100vh;
+    height: 80vh;
     width: 450%;
 
     /* // padding:0 3.33%; */
@@ -812,8 +813,8 @@ svg {
 }
 
 .step {
-    fill: #01bbea;
-    font-size: 50px;
+    fill: #0F172A;
+    font-size: 18px;
     font-family: CircularStd-Bold, Circular Std;
     font-weight: 700;
     text-align: center;
@@ -850,3 +851,22 @@ svg {
         width: 1050px;
     }
 } */
+.shadowNav {
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 7px 0px;
+
+}
+
+.text-container {
+    overflow: scroll;
+    width: 300px;
+    /* Adjust as needed */
+    height: 150px;
+    /* Adjust as needed */
+    /* white-space: nowrap; */
+    font-size: 20px;
+    font-weight: 700;
+    background-color: #88C1EB;
+    border-radius: 20px;
+    padding: 5px;
+    color: #fff;
+}

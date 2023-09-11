@@ -878,6 +878,6 @@ svg {
 
 @media(max-width:768px) {
     #process {
-        height: 70vh !important;
+        height: 20vh !important;
     }
 }

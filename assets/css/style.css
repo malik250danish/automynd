@@ -879,6 +879,6 @@ svg {
 
 @media(max-width:768px) {
     #process {
-        width: 200% !important;
+        width: 260% !important;
     }
 }

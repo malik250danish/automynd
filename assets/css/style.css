@@ -878,7 +878,12 @@ svg {
 
 
 @media(max-width:768px) {
-    #process {
-        width: 260% !important;
+    #process-wrap {
+        /* overflow-x: scroll;*/
+        overflow-y: hidden;
+        width: 200%;
+        /* height: 300vh; */
+        margin-top: 100px;
+        /* Prevent vertical scrolling */
     }
 }

@@ -114,9 +114,9 @@
                       </foreignObject>
                     </g>
                     <g>
-                      <image class="step step-03 image" transform="translate(1130.24 200.72)"
+                      <image class="step step-02 image" transform="translate(1130.24 200.72)"
                         href="./assets/images/cc2.png"></image>
-                      <foreignObject x="700" y="192.72" width="200" height="50" class="text-container step step-03"
+                      <foreignObject x="700" y="192.72" width="200" height="50" class="text-container step step-02"
                         transform="translate(130.24 335.72)">
                         
                           Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet
@@ -128,11 +128,11 @@
                     </g>
                     <g>
 
-                      <image class="step step-05 image" transform="translate(1830.96 42.72)"
+                      <image class="step step-03 image" transform="translate(1830.96 42.72)"
                         href="./assets/images/cc3.png">
 
                       </image>
-                      <foreignObject x="700" y="192.72" width="200" height="50" class="text-container step step-05"
+                      <foreignObject x="700" y="192.72" width="200" height="50" class="text-container step step-03"
                       transform="translate(1330.96 272.72)">
                      
                           Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet
@@ -143,10 +143,10 @@
                       </foreignObject>
                     </g>
                     <g>
-                      <image class="step step-06 image" transform="translate(2542.1 245.72)"
+                      <image class="step step-04 image" transform="translate(2542.1 245.72)"
                       href="./assets/images/cc4.png"></image>
 
-                      <foreignObject x="700" y="192.72" width="200" height="50" class="text-container step step-06"
+                      <foreignObject x="700" y="192.72" width="200" height="50" class="text-container step step-04"
                       transform="translate(2042.1 -145.72)">
                        
                           Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet
@@ -157,9 +157,9 @@
                       </foreignObject>
                     </g>
                    <g>
-                    <image class="step step-07 image" transform="translate(3183.88 30.72)"
+                    <image class="step step-05 image" transform="translate(3183.88 30.72)"
                     href="./assets/images/cc5.png"></image>
-                    <foreignObject x="700" y="192.72" width="200" height="50" class="text-container step step-07"
+                    <foreignObject x="700" y="192.72" width="200" height="50" class="text-container step step-05"
                     transform="translate(2683.88 280.72)">
                   
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet
@@ -172,10 +172,10 @@
                    </g>
 
                   <g>
-                    <image class="step step-08 image" transform="translate(5200.81 192.72)"
+                    <image class="step step-06 image" transform="translate(5200.81 192.72)"
                     href="./assets/images/cc6.png"></image>
 
-                    <foreignObject x="700" y="192.72" width="200" height="50" class="text-container step step-08"
+                    <foreignObject x="700" y="192.72" width="200" height="50" class="text-container step step-06"
                     transform="translate(3950.81 -138.72)">
                    
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet
@@ -186,10 +186,10 @@
                     </foreignObject>
                   </g>
                   <g>
-                    <image class="step step-10 image" transform="translate(4200.81 124.72)"
+                    <image class="step step-07 image" transform="translate(4200.81 124.72)"
                     href="./assets/images/cc7.png"></image>
 
-                    <foreignObject x="700" y="192.72" width="200" height="50" class="text-container step step-10"
+                    <foreignObject x="700" y="192.72" width="200" height="50" class="text-container step step-07"
                     transform="translate(4100.81 272.72)">
                    
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet
@@ -200,10 +200,10 @@
                     </foreignObject>
                   </g>
                     <g>
-                      <image class="step step-11 image" transform="translate(5700.81 290.72)"
+                      <image class="step step-08 image" transform="translate(5700.81 290.72)"
                       href="./assets/images/cc8.png"></image>
 
-                      <foreignObject x="700" y="192.72" width="200" height="50" class="text-container step step-11"
+                      <foreignObject x="700" y="192.72" width="200" height="50" class="text-container step step-08"
                       transform="translate(5000.81 -80.72)">
                      
                           Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet
@@ -726,7 +726,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/animation.gsap.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
 
-  <script>
+  <!-- <script>
     // Init ScrollMagic
     var controller = new ScrollMagic.Controller();
 
@@ -786,8 +786,8 @@
       .from(".step-06", 0.02, { autoAlpha: 0 }, "line+=1.75")
       .from(".step-07", 0.02, { autoAlpha: 0 }, "line+=2.33")
       .from(".step-08", 0.02, { autoAlpha: 0 }, "line+=2.75")
-      .from(".step-09", 0.02, { autoAlpha: 0 }, "line+=3")
-      .from(".step-09", 0.02, { autoAlpha: 0 });
+      // .from(".step-09", 0.02, { autoAlpha: 0 }, "line+=3")
+      // .from(".step-09", 0.02, { autoAlpha: 0 });
 
     talkTl.set("#process-wrap", {
       className: "+=seen",
@@ -801,6 +801,84 @@
         scroll(500, distance);
       },
     });
+  </script> -->
+
+  <script>
+    // Init ScrollMagic
+var controller = new ScrollMagic.Controller();
+
+// GSAP Timline vars
+var horzTl = new TimelineMax();
+var processTl = new TimelineMax();
+var talkTl = new TimelineMax();
+var talkEl = document.getElementById("talk");
+var distance = talkEl.getBoundingClientRect().top;
+
+// Detect if the screen is mobile
+var isMobile = window.innerWidth <= 600;
+
+// ScrollMagic scenes
+// horizontal scrolling scene
+var horzScene = new ScrollMagic.Scene({
+  triggerElement: "#process",
+  triggerHook: 0,
+  duration: isMobile ? "150%" : "300%", // Adjusted duration based on screen size
+})
+  .setTween(horzTl)
+  .setPin("#process")
+  .addTo(controller);
+
+// process scene
+var processScene = new ScrollMagic.Scene({
+  triggerElement: "#process",
+  triggerHook: 0,
+  duration: isMobile ? "150%" : "230%", // Adjusted duration based on screen size
+})
+  .setTween(processTl)
+  .addTo(controller);
+
+var talkScene = new ScrollMagic.Scene({
+  triggerElement: "#talk",
+  triggerHook: 0,
+  reverse: false,
+})
+  .setTween(talkTl)
+  .addTo(controller);
+
+// Set timeline objects
+horzTl
+  //side scrolling
+  .to(".horizontal-container", isMobile ? 1 : 2, { // Adjusted duration based on screen size
+    x: "-90.6666%",
+    ease: Linear.easeNone,
+  });
+
+processTl
+  // steps
+  .from(".step-01", isMobile ? 0.01 : 0.02, { autoAlpha: 0 }) // Adjusted duration based on screen size
+  .add("line")
+  .to(".time", 3, { strokeDashoffset: 0, ease: Linear.easeNone }, "line")
+  .from(".step-02", isMobile ? 0.01 : 0.02, { autoAlpha: 0 }, "line+=.15") // Adjusted duration based on screen size
+  .from(".step-03", isMobile ? 0.01 : 0.02, { autoAlpha: 0 }, "line+=.6") // Adjusted duration based on screen size
+  .from(".step-04", isMobile ? 0.01 : 0.02, { autoAlpha: 0 }, "line+=1.07") // Adjusted duration based on screen size
+  .from(".step-05", isMobile ? 0.01 : 0.02, { autoAlpha: 0 }, "line+=1.5") // Adjusted duration based on screen size
+  .from(".step-06", isMobile ? 0.01 : 0.02, { autoAlpha: 0 }, "line+=1.75") // Adjusted duration based on screen size
+  .from(".step-07", isMobile ? 0.01 : 0.02, { autoAlpha: 0 }, "line+=2.33") // Adjusted duration based on screen size
+  .from(".step-08", isMobile ? 0.01 : 0.02, { autoAlpha: 0 }, "line+=2.75"); // Adjusted duration based on screen size
+
+talkTl.set("#process-wrap", {
+  className: "+=seen",
+  onComplete: function () {
+    // destroy timelines
+    // horzScene.destroy();
+    // processScene.destroy();
+    // remove added styles
+    TweenMax.set(".scrollmagic-pin-spacer", { clearProps: "all" });
+    //keep window in place
+    scroll(500, distance);
+  },
+});
+
   </script>
   <script>
     var tt = gsap.timeline({ repeat: -1, repeatDelay: 1 });

@@ -876,10 +876,11 @@ svg {
     color: #fff;
 }
 
+
 @media(max-width:768px) {
     #process {
-        height: 50vh !important;
-        width: 880% !important;
+        height: 40vh !important;
+        width: 980% !important;
     }
 
     .image {

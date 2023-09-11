@@ -298,15 +298,6 @@
     .mobileImg {
         width: 300px;
     }
-
-    .reqBtn {
-        width: 100%;
-
-    }
-
-    .expBtn {
-        width: 100%;
-    }
 }
 
 
@@ -883,4 +874,10 @@ svg {
     border-radius: 20px;
     padding: 5px;
     color: #fff;
+}
+
+@media(max-width:768px) {
+    #process {
+        height: 70vh !important;
+    }
 }

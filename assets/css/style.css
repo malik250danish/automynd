@@ -11,7 +11,7 @@
     --para1-font-size: 22px;
     --button-font-size: 19px;
     --business-font-size: 35px;
-    --business-card-font-size: 26px;
+    --business-card-font-size: 25px;
     --frequently-font-size: 50px;
     --card-para2-font-size: 22px;
     --cdi-font-size: 24px;
@@ -879,5 +879,15 @@ svg {
 @media(max-width:768px) {
     #process {
         height: 20vh !important;
+    }
+}
+
+
+@media (min-height: 900px) {
+    /* Your styles here */
+
+    #process {
+        height: 60vh !important;
+        width: 6335px !important;
     }
 }

@@ -937,3 +937,23 @@ svg {
     }
 
 }
+
+/* For Chrome, Safari and Opera */
+.text-container::-webkit-scrollbar {
+    width: 0px;
+    /* Remove scrollbar space */
+    background: transparent;
+    /* Optional: just make scrollbar invisible */
+}
+
+/* For Internet Explorer and Edge */
+.text-container {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+}
+
+/* For Firefox */
+.text-container {
+    scrollbar-width: none;
+    /* Firefox */
+}

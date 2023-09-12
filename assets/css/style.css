@@ -901,7 +901,25 @@ svg {
         width: 6335px !important;
     }
 
+}
 
 
+@media (min-height: 800px) {
+
+
+    #process {
+        height: 50vh !important;
+        width: 5335px !important;
+    }
+
+}
+
+@media (min-height: 700px) {
+
+
+    #process {
+        height: 60vh !important;
+        width: 4335px !important;
+    }
 
 }

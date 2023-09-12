@@ -299,6 +299,10 @@
     .mobileImg {
         width: 300px;
     }
+
+    .foot-row {
+        padding-bottom: 20px !important;
+    }
 }
 
 

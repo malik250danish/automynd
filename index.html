@@ -17,7 +17,7 @@
 <body>
   <!-- navbar -->
   <nav class="navbar navbar-expand-lg navBg py-1 ">
-    <div class="container mt-5">
+    <div class="container mt-5 ">
       <a href="./index.html"><img class="logoImg" src="./assets/images/logo.png" data-aos="fade-down" data-aos-duration="1500"
           alt="" /></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
@@ -53,9 +53,9 @@
             <div class="row mt-5">
               <div class="col-md-7 ">
 
-                <p class="hea1 mt-4 mb-1s " data-aos="fade-up" data-aos-duration="1500">AI-powered Automation</p>
-                <p class="hea1" data-aos="fade-up">for your clinical assessments</p>
-                <p class="pa1 mt-5" data-aos="fade-up" data-aos-duration="1500">
+                <p class="hea1 mt-4 mb-0 mb-md-1 " data-aos="fade-up" data-aos-duration="1500">AI-powered Automation</p>
+                <p class="hea1 " data-aos="fade-up">for your clinical assessments</p>
+                <p class="pa1 mt-2 mt-md-5" data-aos="fade-up" data-aos-duration="1500">
                   We have combined the power of AI and Automation to enhance the
                   experience of Home Health and Post-Acute care clinicians and
                   caregivers.
@@ -904,6 +904,22 @@ talkTl.set("#process-wrap", {
         }
       });
     </script>
+
+<script>
+ 
+  document.addEventListener('DOMContentLoaded', (event) => {
+    if (window.innerWidth <= 768) {
+      document.querySelectorAll('.specification[data-aos="zoom-in-left"]').forEach(el => {
+       
+        el.setAttribute('data-aos', 'fade-up');
+      });
+      document.querySelectorAll('.specification[data-aos="zoom-in-right"]').forEach(el => {
+        el.setAttribute('data-aos', 'fade-up');
+      });
+    }
+  });
+</script>
+
 </body>
 
 </html>

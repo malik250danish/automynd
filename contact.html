@@ -22,8 +22,16 @@
   </head>
   <body class="">
     <!-- navbar -->
-    <!-- <nav class="navbar navbar-expand-lg navBg pt-3">
-      <div class="container">
+    <nav class="navbar navbar-expand-lg navBg py-1">
+      <div class="container mt-5">
+        <a href="#"
+          ><img
+            class="logoImg"
+            src="./assets/images/logo.png"
+            data-aos="fade-down"
+            data-aos-duration="1500"
+            alt=""
+        /></a>
         <button
           class="navbar-toggler"
           type="button"
@@ -39,26 +47,27 @@
           class="collapse navbar-collapse justify-content-end"
           id="navbarNavDropdown"
         >
-          <ul class="navbar-nav mt-3">
-            <li class="nav-item mx-4">
-              <a class="nav-link active navItem" aria-current="page" href="#"
+          <ul
+            class="navbar-nav align-items-lg-center align-items-start gap-3 mt-3 mb-3"
+          >
+            <li class="nav-item">
+              <a class="nav-link navItem" aria-current="page" href="#"
                 >Solution</a
               >
             </li>
-            <li class="nav-item mx-4">
+            <li class="nav-item">
               <a class="nav-link navItem" href="#">About us</a>
             </li>
-            <li class="nav-item mx-4">
-              <a class="nav-link btn navItemBtn px-3" href="#"
+            <li class="nav-item2 mx-md-4">
+              <a class="navItemBtn" href="./contact.html"
                 >Contact us <img src="./assets/images/arrow.svg" alt=""
               /></a>
             </li>
           </ul>
         </div>
       </div>
-    </nav> -->
+    </nav>
     <!-- navbar end -->
-
     <!-- contact us page by ikram  -->
     <div class="container-fluid conatctBg py-5">
       <div class="container">
@@ -216,5 +225,19 @@
     <script>
       AOS.init();
     </script>
+    <!-- <script>
+      const navbar = document.querySelector(".navbar");
+      const originalOffsetTop = navbar.offsetTop;
+
+      window.addEventListener("scroll", () => {
+        if (window.scrollY > originalOffsetTop) {
+          navbar.classList.add("fixed-top");
+          navbar.classList.add("shadowNav");
+        } else {
+          navbar.classList.remove("fixed-top");
+          navbar.classList.remove("shadowNav");
+        }
+      });
+    </script> -->
   </body>
 </html>

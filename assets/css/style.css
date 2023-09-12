@@ -893,6 +893,26 @@ svg {
 }
 
 
+@media (min-height: 700px) {
+
+
+    #process {
+        height: 60vh !important;
+        width: 4335px !important;
+    }
+
+}
+
+@media (min-height: 800px) {
+
+
+    #process {
+        height: 55vh !important;
+        width: 5000px !important;
+    }
+
+}
+
 @media (min-height: 900px) {
     /* Your styles here */
 
@@ -903,23 +923,12 @@ svg {
 
 }
 
-
-@media (min-height: 800px) {
-
-
-    #process {
-        height: 50vh !important;
-        width: 5335px !important;
-    }
-
-}
-
-@media (min-height: 700px) {
-
+@media (min-height: 1000px) {
+    /* Your styles here */
 
     #process {
         height: 60vh !important;
-        width: 4335px !important;
+        width: 6500px !important;
     }
 
 }

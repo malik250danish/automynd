@@ -880,6 +880,16 @@ svg {
     #process {
         height: 20vh !important;
     }
+
+    .expBtn {
+        width: 100%;
+
+    }
+
+    .reqBtn {
+        width: 100%;
+    }
+
 }
 
 
@@ -890,4 +900,8 @@ svg {
         height: 60vh !important;
         width: 6335px !important;
     }
+
+
+
+
 }
